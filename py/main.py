@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+# pip install bleak
+
 import asyncio
 import logging
 import uuid
