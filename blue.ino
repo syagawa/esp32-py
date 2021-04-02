@@ -48,7 +48,7 @@ void setup() {
   Serial.setDebugOutput(true);
   Serial.println("BLE start.");
 
-  BLEDevice::init("m5-stack");
+  BLEDevice::init("m5CameraX");
   BLEServer *pServer = BLEDevice::createServer();
   pServer->setCallbacks(new MyServerCallbacks());
   BLEService *pService = pServer->createService(SERVICE_UUID);
